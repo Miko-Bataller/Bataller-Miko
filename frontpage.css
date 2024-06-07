@@ -1,59 +1,70 @@
 body {
-    background-color: #121212;
-    color: #FFFFFF;
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #000000;
 }
-
 .container {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
 }
-
-h1 {
-    color: #03A9F4;
+header {
+    background: #333;
+    color: #9d9999;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #00ccff 3px solid;
 }
-
-.resume {
-    margin-top: 30px;
+header a, header h1 {
+    color: #adabab;
+    text-decoration: none;
+    text-transform: uppercase;
 }
-
-.resume .section {
-    margin-bottom: 30px;
+header h1 {
+    float: left;
+    margin: 0;
 }
-
-.resume h2 {
-    border-bottom: 2px solid #03A9F4;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+header nav {
+    float: right;
+    margin-top: 10px;
 }
-
-.resume p {
-    line-height: 1.6;
+header nav a {
+    margin-left: 20px;
 }
-
-.resume p:first-child {
+#showcase {
+    min-height: 69px;
+    background: #333;
+    color: #abacad;
+    text-align: center;
+    padding: 50px 20px;
+}
+#showcase h1 {
     margin-top: 0;
 }
-
-.resume p:last-child {
-    margin-bottom: 0;
-}
-
 .section {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 15px;
-    border-radius: 8px;
+    padding: 20px;
+    background: #333;
+    margin: 20px 0;
 }
-
 .section h2 {
-    color: #03A9F4;
+    margin-top: 0;
 }
-
-.section p {
-    color: #FFFFFF;
+.skills, .experience, .education {
+    list-style: none;
+    padding: 0;
+}
+.skills li, .experience li, .education li {
+    padding: 10px;
+    margin: 10px 0;
+    background: #adabab;
+}
+.contact {
+    padding: 20px;
+    background: #12dbff;
+    color:black;
+}
+.contact h2 {
+    margin-top: 0;
 }
